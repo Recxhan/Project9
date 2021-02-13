@@ -1,0 +1,177 @@
+*{
+    box-sizing: border-box;
+    font-family: 'Teko', sans-serif;
+    color: white;
+}
+
+html,
+header,
+.jumbotron,
+#contact,
+form,
+section,
+footer{
+    background-color: #004445;
+}
+#siganture{
+    height: auto;
+    width: 75px;
+}
+
+a{
+    color: white;
+}
+
+.nav-item{
+    font-size: 2rem;
+}
+
+#dropdownMenuButton{
+    height: 30px;
+    background-image: url(../image/dropdown.svg);
+    border: 1px transparent;   
+    outline: 0;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.dropdown-menu.show {
+    right: 0%;
+    left: unset;
+}
+
+.dropdown-item{
+    font-size: 1.5rem;
+}
+
+.jumbotron{
+    color: white;
+    border-radius: unset;
+}
+
+hr{
+    border-top: 1px solid white;
+}
+
+li{
+    list-style: none;
+}
+
+.social-link{
+    width: 50px;
+    height: 50px;
+    background: #004445;
+    text-align: center;
+    padding: 13px;
+    border-radius: 50%;
+    font-size: 30px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    border: 2px solid #F7C500;
+}
+
+.social-link:hover{
+    background: #F7C500;
+}
+
+.typewriter h1 {
+    font-weight: bolder ;
+    width: 210px;
+    overflow: hidden;
+    border-right: .15em solid #F7C500;
+    white-space: nowrap;
+    letter-spacing: .15em;
+    animation: 
+      typing 2s steps(40, end),
+      blink-caret .75s step-end infinite;
+}
+  
+@keyframes typing {
+    from { width: 0 }
+    to { width: 210px }
+}
+  
+@keyframes blink-caret {
+    from, to { border-color: transparent }
+    50% { border-color: #F7C500 }
+}
+
+#projects{
+    background-color: #004445;
+}
+
+#projects-text{
+    letter-spacing: 1rem;
+}
+
+.card{
+    border: none;
+    background-color: #021C1E;
+}
+
+.card-body,
+.card-title,
+.card-text,
+.card-img-top{
+    background-color: #021C1E;
+}
+
+.card-img-top{
+    width: 50px;
+    height: 50px;
+}
+
+.photo-icon{
+    width: 40px;
+    height: 40px;
+}
+
+svg{
+    fill: #F7C500;
+}
+
+.card-img-bottom{
+    font-size: 2rem;
+}
+
+#contact-text{
+    letter-spacing: .8rem;
+}
+
+.card-img-left{
+    font-size: 2rem;
+}
+
+.card:hover,
+.card:hover .card-img-top,
+.card:hover .card-body,
+.card:hover .card-text,
+.card:hover .card-title{
+    background-color: #F7C500;
+}
+
+
+.card:hover .svg-fill{
+    fill: white;
+}
+
+.card:hover .st0{
+    stroke: white;
+}
+
+.btn-primary {
+    color: #fff;
+    background-color: #021C1E;
+    border-color: #021C1E;
+}
+
+#to-top{
+    left: unset;
+    font-size: 2.5rem;
+    right: 15px;
+    bottom: 15px;
+}
