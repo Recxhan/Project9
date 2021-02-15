@@ -91,25 +91,9 @@ li{
       blink-caret .75s step-end infinite;
 }
  
-.typewriter p {
-    font-weight: bolder ;
-    width: 100px;
-    overflow: hidden;
-    border-right: .15em solid #F7C500;
-    white-space: nowrap;
-    letter-spacing: .15em;
-    animation: 
-      typing-p 1s steps(40, end),
-      blink-caret-p .75s step-end infinite;
-}
-
-.card-body:hover p{
-    
-}
-
-@keyframes typing-p {
+@keyframes typing {
     from { width: 0 }
-    to { width: 100px }
+    to { width: 210px }
 }
   
 @keyframes blink-caret {
@@ -117,9 +101,8 @@ li{
     50% { border-color: #F7C500 }
 }
 
-@keyframes blink-caret-p {
-    from, to { border-color: transparent }
-    50% { border-color: #D00086 }
+.direction{
+    color: #D00086;
 }
 
 #projects{
