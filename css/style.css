@@ -13,7 +13,8 @@ section,
 footer{
     background-color: #004445;
 }
-#siganture{
+
+.signature{
     height: auto;
     width: 75px;
 }
@@ -78,7 +79,7 @@ li{
     background: #F7C500;
 }
 
-.typewriter h1 {
+.typewriter h1{
     font-weight: bolder ;
     width: 210px;
     overflow: hidden;
@@ -89,15 +90,36 @@ li{
       typing 2s steps(40, end),
       blink-caret .75s step-end infinite;
 }
-  
-@keyframes typing {
+ 
+.typewriter p {
+    font-weight: bolder ;
+    width: 100px;
+    overflow: hidden;
+    border-right: .15em solid #F7C500;
+    white-space: nowrap;
+    letter-spacing: .15em;
+    animation: 
+      typing-p 1s steps(40, end),
+      blink-caret-p .75s step-end infinite;
+}
+
+.card-body:hover p{
+    
+}
+
+@keyframes typing-p {
     from { width: 0 }
-    to { width: 210px }
+    to { width: 100px }
 }
   
 @keyframes blink-caret {
     from, to { border-color: transparent }
     50% { border-color: #F7C500 }
+}
+
+@keyframes blink-caret-p {
+    from, to { border-color: transparent }
+    50% { border-color: #D00086 }
 }
 
 #projects{
@@ -174,4 +196,8 @@ svg{
     font-size: 2.5rem;
     right: 15px;
     bottom: 15px;
+}
+
+#form-heading{
+    letter-spacing: .2rem;
 }
